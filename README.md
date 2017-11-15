@@ -28,7 +28,7 @@ The high level service/data model is as follows:
 
 The service allows for us to run compliance checks and remediate for ACL that are missing from a specified interface. ie if a support engineer removed for trouble shooting, but forgot to re-apply.
 
-## Walkthough
+## Walkthrough
 
 The repo has 3 markdown files that walk through how to replicate this package and was built as a training course lab. Please go through and feel free to make issues with any desired improvements.
 

@@ -12,7 +12,9 @@ module acl_lab {
   augment /ncs:services {
   list acl_lab {
     key "ACL_Name ACL_Direction";
-
+    uses ncs:service-data;
+    ncs:servicepoint ubvpn-servicepoint;
+    
     leaf ACL_Name {
       type string;
     }
